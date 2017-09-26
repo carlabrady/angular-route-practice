@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-route.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/controllers/home.controller.js"></script>
+    <script src="scripts/controllers/tim.controller.js"></script>
+    <script src="scripts/controllers/daisy.controller.js"></script>
+    <script src="scripts/controllers/Brian.controller.js"></script>
+    <title>Spaced</title>
+</head>
+<body ng-app = "myApp">
+    <h1>Spaced Characters</h1>
+    <nav>
+        <button><a href="#!/">Home</a></button>
+        <button><a href="#!/tim">Tim</a></button>
+        <button><a href="#!/daisy">Daisy</a></button>
+        <button><a href="#!/tires">Brian</a></button>        
+    </nav>
+    <ng-view></ng-view>
+    
+</body>
+</html>
