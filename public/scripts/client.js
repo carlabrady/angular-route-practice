@@ -13,7 +13,7 @@ myApp.config(function($routeProvider) {
     }).when('/daisy', {
         templateUrl: 'views/daisy.html',
         controller: 'DaisyController as ctrl'
-    }).when('/tires', {
+    }).when('/brian', {
         templateUrl: 'views/brian.html',
         controller: 'BrianController as ctrl'
     }).otherwise({ redirectTo: '/'});
